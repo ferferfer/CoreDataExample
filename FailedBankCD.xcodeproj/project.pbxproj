@@ -15,6 +15,8 @@
 		3FC9C4A31A14B447007B5979 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC9C4A11A14B447007B5979 /* LaunchScreen.xib */; };
 		3FC9C4AF1A14B447007B5979 /* FailedBankCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9C4AE1A14B447007B5979 /* FailedBankCDTests.m */; };
 		3FC9C4BA1A14B786007B5979 /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9C4B91A14B786007B5979 /* FBCDMasterViewController.m */; };
+		3FC9C4BD1A14C7F9007B5979 /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9C4BC1A14C7F9007B5979 /* FailedBankDetails.m */; };
+		3FC9C4C01A14C7FA007B5979 /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC9C4BF1A14C7FA007B5979 /* FailedBankInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		3FC9C4AE1A14B447007B5979 /* FailedBankCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBankCDTests.m; sourceTree = "<group>"; };
 		3FC9C4B81A14B786007B5979 /* FBCDMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBCDMasterViewController.h; sourceTree = "<group>"; };
 		3FC9C4B91A14B786007B5979 /* FBCDMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBCDMasterViewController.m; sourceTree = "<group>"; };
+		3FC9C4BB1A14C7F9007B5979 /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		3FC9C4BC1A14C7F9007B5979 /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		3FC9C4BE1A14C7FA007B5979 /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		3FC9C4BF1A14C7FA007B5979 /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				3FC9C49F1A14B447007B5979 /* Images.xcassets */,
 				3FC9C4A11A14B447007B5979 /* LaunchScreen.xib */,
 				3FC9C4931A14B447007B5979 /* FailedBankCD.xcdatamodeld */,
+				3FC9C4BE1A14C7FA007B5979 /* FailedBankInfo.h */,
+				3FC9C4BF1A14C7FA007B5979 /* FailedBankInfo.m */,
+				3FC9C4BB1A14C7F9007B5979 /* FailedBankDetails.h */,
+				3FC9C4BC1A14C7F9007B5979 /* FailedBankDetails.m */,
 				3FC9C48C1A14B447007B5979 /* Supporting Files */,
 				3FC9C4B81A14B786007B5979 /* FBCDMasterViewController.h */,
 				3FC9C4B91A14B786007B5979 /* FBCDMasterViewController.m */,
@@ -222,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC9C4BD1A14C7F9007B5979 /* FailedBankDetails.m in Sources */,
 				3FC9C4951A14B447007B5979 /* FailedBankCD.xcdatamodeld in Sources */,
 				3FC9C4921A14B447007B5979 /* AppDelegate.m in Sources */,
 				3FC9C48F1A14B447007B5979 /* main.m in Sources */,
+				3FC9C4C01A14C7FA007B5979 /* FailedBankInfo.m in Sources */,
 				3FC9C4BA1A14B786007B5979 /* FBCDMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
